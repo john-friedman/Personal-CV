@@ -2,32 +2,42 @@
 
 ### Education
 UC Berkeley 
+
 Stats Major
+
 Economics Major
 
 ### Classes Taken
-Andy Ng ML Sequence
-Course 1
+Andy Ng ML Sequence: Course 1
 
 ### Various Jobs:
 Research Assistant UCB (Fall 2019 - Present)
+
 Summer Researcher MIT (Summer 2018, Summer 2019)
 
 ### Volunteer/unpaid work:
 Covid-19 Policy Alliance (Spring 2020 - Summer 2020)
+
 Undergraduate Research Apprenticeship Program (Fall 2017 - Fall 2019)
 
 ### Coding Languages:
 Python - Significant Experience. Have written many projects in Python. Decent for performance, great for hacking together a GUI.
+
 R - Significant Experience. Have written many projects in R. I find it's often the quickest language to hack something data sciency together in, if performance is not an issue.
+
 Julia - Minor Experience. Julia looks awesome, it feels intuitive and can be extremely fast compared to Python. I'm actively looking for an excuse to write something big in this language.
+
 Octave - Minor Experience. I used this for Andy Ng's ML courses. I'm not the biggest fan, but it seems nice for matrix multiplication.
+
 Fish (><>) - I will never touch this. Ever.
 
 ### APIs:
 Google Cloud Vision
+
 Google Maps 
+
 Dropbox
+
 FCC
 
 ### Coding Experience
