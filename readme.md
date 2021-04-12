@@ -1,16 +1,20 @@
 # Personal-CV
 
 ### Education
-UC Berkeley 
+UC Berkeley (Fall 2017-Spring 2020)
 
-Stats Major
+Economics Major (EGT 2021)
 
-Economics Major
+Stats Major (Dropped due to graduating early)
+
+Note: I finished my economics major in Spring 2020, and took a full time research position in Summer 2020 due to Covid-19. I intended to return in Spring 2021, to finish my statistics major,
+but I chose to instead continue working.
 
 ### Classes Taken
 Andy Ng ML Sequence: Course 1
 
 ### Various Jobs:
+
 Research Assistant UCB (Fall 2019 - Present)
 
 Summer Researcher MIT (Summer 2018, Summer 2019)
@@ -19,6 +23,15 @@ Summer Researcher MIT (Summer 2018, Summer 2019)
 Covid-19 Policy Alliance (Spring 2020 - Summer 2020)
 
 Undergraduate Research Apprenticeship Program (Fall 2017 - Fall 2019)
+
+
+### Papers/Packages
+~remember to fill this in
+~islatlon
+
+#### Forthcoming:
+Name matching package - change to simple scripting
+
 
 ### Coding Languages:
 Python - Significant Experience. Have written many projects in Python. Decent for performance, great for hacking together a GUI.
@@ -42,6 +55,19 @@ FCC
 
 ### Coding Experience
 
+#### Worked on a data pipeline to convert Federal register data in raw/typed form into a cleaned dataset.
+Languages: R
+
+Quick Desc: We had a csv file that contained columns such as 'raw data' (the raw ocr data), and then columns that had been manually typed up/extracted using someone else's parser.
+It was not given which observations had been typed/parsed.
+
+This turned out to be a surprisingly difficult problem because the raw ocr data was very messy. I actually did not complete the parser as I found a large scale systematic error in the data,
+and was told that future input data would be typed only. The typed data cleaning pipeline was completed sucessfully.
+
+Useful experience:
+* Regex. Writing long strings of Regex rules. Learning that look-behinds are often unsupported.
+* OCR. Specifically, OCR on numbers (such as salary data) should be done carefully so as to avoid errors like the 'footnote error'. Essentially, a footnote in front of a number may be
+read as part of that number.
 
 #### Created a data pipeline to detemine if observations of a civil servant in a civil servant dataset were the same based on name and some additional information. (March 25th-Present)
 Languages: R
