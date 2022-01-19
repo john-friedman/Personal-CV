@@ -8,14 +8,15 @@ Economics Major (EGT 2021)
 Stats Major (Dropped due to graduating early)
 
 Note: I finished my economics major in Spring 2020, and took a full time research position in Summer 2020 due to Covid-19. I intended to return in Spring 2021, to finish my statistics major,
-but I chose to instead continue working.
+but I chose to instead graduate and work as a pre-doc at UC Berkeley.
 
 ### Classes Taken
 Andy Ng ML Sequence: Course 1
 
 ### Various Jobs:
+Economics Pre-Doc (Fall 2021 - Present)
 
-Research Assistant UCB (Fall 2019 - Present)
+Research Assistant UCB (Fall 2019 - Summer 2021)
 
 Summer Researcher MIT (Summer 2018, Summer 2019)
 
