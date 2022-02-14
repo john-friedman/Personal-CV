@@ -54,7 +54,12 @@ Dropbox
 
 FCC
 
+
+### Misc:
+Google Big Query
+
 ### Coding Experience
+
 
 #### Worked on a data pipeline to convert Federal register data in raw/typed form into a cleaned dataset.
 Languages: R
