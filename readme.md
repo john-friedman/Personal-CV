@@ -64,6 +64,47 @@ Google Big Query
 ### Coding Experience
 
 
+#### Using Unsupervised Machine Learning to link individuals across years
+Languages: Python, R
+
+Quick Desc: We had a csv with Name, Year, Birth State, Salary, and a few more attributed. We wanted to link people between years based on this information. e.g. Peter Thomas in 1899 with Peter Thomas in 1897. This task is complicated by transcription errors (the data was typed up), and that people in the 20th century did not keep the cleanest records (e.g. name variations between years are common, mispellings are frequent)
+
+Solution:
+* Used Hierarchical Clustering to "guess" which people were the same over years. Simple algorithm to confirm whether the "guess" is plausible". If not plausible, cluster was sent to DBSCAN (which can use categorical data unlike hierarchical clustering), If still not plausible, process was repeated with different thresholds. (We cut hclust at different heights)
+* If guesses were plausible, sent to a PyQt GUI where a human confirmed if each match was correct. 
+
+Useful Experience:
+* PyQt, R-stats
+* Maximizing speed at which human interfaces with machine. (Note: I should explain this further)
+
+#### Using Python to link individuals across years
+
+Quick Desc: We had a csv with Name, Year, Birth State, Salary, and a few more attributed. We wanted to link people between years based on this information. e.g. Peter Thomas in 1899 with Peter Thomas in 1897. This task is complicated by transcription errors (the data was typed up), and that people in the 20th century did not keep the cleanest records (e.g. name variations between years are common, mispellings are frequent)
+
+Solution:
+* Python program that used simple logic - e.g. LINK IF FIRST NAME SAME; LAST NAME SAME; SALARY WITHIN 30%; BIRTH STATE SAME;
+
+Useful experience:
+* Memory usage
+* Pandas
+* Multiprocessing
+
+#### Scraping Slavery Records data
+Languages: Python
+
+Quick Desc: Used selenium to scrape slavery records.
+
+Useful Experience:
+PySelenium
+
+#### Scraping Family Tree Data for a research paper on the US Civil Service
+Languages: Python
+
+Quick Desc: We wanted to look at the impact of resegregation on african american civil servants during woodrow wilson's presidency. Since the census does not link children during this period, we used alternative measures - family trees data available online.
+
+Useful experience:
+PySelenium
+
 #### Worked on a data pipeline to convert Federal register data in raw/typed form into a cleaned dataset.
 Languages: R
 
@@ -78,7 +119,7 @@ Useful experience:
 * OCR. Specifically, OCR on numbers (such as salary data) should be done carefully so as to avoid errors like the 'footnote error'. Essentially, a footnote in front of a number may be
 read as part of that number.
 
-#### Created a data pipeline to detemine if observations of a civil servant in a civil servant dataset were the same based on name and some additional information. (March 25th-Present)
+#### Created a data pipeline to detemine if observations of a civil servant in a civil servant dataset were the same based on name and some additional information. (March 2021)
 Languages: R
 
 Quick example: We needed to determine whether a 'John Doe' in year 1909 who worked in the Navy and was born in Poland was the same as say 'John D' from the year 1911, who was
