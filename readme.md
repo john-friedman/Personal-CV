@@ -13,6 +13,9 @@ but I chose to instead graduate and work as a pre-doc at UC Berkeley.
 ### Classes Taken
 Andy Ng ML Sequence: Course 1
 
+### Online Stuff
+https://run.qwiklabs.com/public_profiles/d1a48ce9-85c4-4b3c-9057-6524903c18ec
+
 ### Various Jobs:
 Economics Pre-Doc (Fall 2021 - Present)
 
