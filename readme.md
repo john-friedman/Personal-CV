@@ -61,6 +61,9 @@ FCC
 ### Misc:
 Google Big Query
 
+### Pet Peeves
+Special characters and regex
+
 ### Coding Experience
 
 
