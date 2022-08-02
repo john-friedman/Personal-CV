@@ -3,7 +3,7 @@
 ### Education
 UC Berkeley (Fall 2017-Spring 2020)
 
-Economics Major (EGT 2021)
+Economics Major (Spring 2021)
 
 Stats Major (Dropped due to graduating early)
 
@@ -31,7 +31,6 @@ Undergraduate Research Apprenticeship Program (Fall 2017 - Fall 2019)
 
 ### Papers/Packages
 ~remember to fill this in
-~islatlon
 
 #### Forthcoming:
 Name matching package - change to simple scripting
@@ -40,7 +39,7 @@ Name matching package - change to simple scripting
 ### Coding Languages:
 Python - Significant Experience. Have written many projects in Python. Decent for performance, great for hacking together a GUI.
 
-R - Significant Experience. Have written many projects in R. I find it's often the quickest language to hack something data sciency together in, if performance is not an issue.
+R - Significant Experience. Have written many projects in R. I find it's often the quickest language to hack something data sciency together in, if performance is not an issue. Also, often has less dependency issues than python.
 
 Julia - Minor Experience. Julia looks awesome, it feels intuitive and can be extremely fast compared to Python. I'm actively looking for an excuse to write something big in this language.
 
@@ -60,12 +59,23 @@ FCC
 
 ### Misc:
 Google Big Query
+RSS / ATOM
 
 ### Pet Peeves
 Special characters and regex
 
 ### Coding Experience
 
+
+
+#### Networks
+* networkx
+
+#### Scraping
+rvest
+selenium
+custom pyqtguis
+macros
 
 #### Using Unsupervised Machine Learning to link individuals across years
 Languages: Python, R
